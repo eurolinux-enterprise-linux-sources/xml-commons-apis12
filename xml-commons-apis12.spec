@@ -31,7 +31,7 @@
 Name:           xml-commons-apis12
 Epoch:          0
 Version:        1.2.04
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        JAXP 1.2, DOM 2, SAX 2.0.1, SAX2-ext 1.0 apis
 Group:          System Environment/Libraries
 URL:            http://xml.apache.org/commons/
@@ -143,9 +143,6 @@ rm -rf $RPM_BUILD_ROOT
 # -----------------------------------------------------------------------------
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.2.04-10
-- Mass rebuild 2013-12-27
-
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0:1.2.04-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
